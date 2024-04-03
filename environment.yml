@@ -1,0 +1,20 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - conda==24.3.0
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - seaborn
+  - conda-forge::xlsxwriter
+  - ipykernel
+  - bokeh=3
+  - pyinstaller
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - networkx
+prefix: /home/njs/miniconda3
